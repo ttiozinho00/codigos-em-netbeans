@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="mundofx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="138.0" layoutY="81.0" mnemonicParsing="false" onAction="#clicouBotao" text="Aperte" />
+      <Label fx:id="lblMensagem" layoutX="120.0" layoutY="43.0" text="Mensagem" textFill="#247907">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
